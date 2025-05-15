@@ -28,7 +28,7 @@ While Vercel is excellent for many web applications, it doesn't natively support
 4. Select your repository, branch, and main file (`app.py`)
 5. Click "Deploy"
 6. Wait for the deployment to complete (this may take a few minutes)
-7. Note the URL of your deployed app (e.g., `https://wordsmith-sms-analysis.streamlit.app`)
+7. Note the URL of your deployed app (e.g., `https://wordsmith.streamlit.app`)
 
 ## Step 3: Update the Vercel Redirect
 

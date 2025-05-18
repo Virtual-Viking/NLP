@@ -9,9 +9,8 @@ import string
 # import io
 
 # Download NLTK resources
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('all')
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -65,13 +64,6 @@ st.markdown(
 )
 
 st.title("Wordsmith - Msg Analysis Suite")
-st.write("This NLP project tackles the important problem of SMS spam detection using machine learning techniques. The solution consists of a complete end-to-end pipeline including data preprocessing, feature extraction, model training, evaluation, and a user-friendly Streamlit interface.")
-st.write("Project developed by - .")
-st.write("__________________1. Mohit Prjapati")
-st.write("__________________2. Sujit Kumar Shah")
-st.write("__________________3. Md. Ali Alkama")
-st.write("__________________4. Modassir Alam")
-st.write("__________________5. Zeeshan Ahmad")
 
 st.write("Please upload the dataset")
 uploaded_file = st.file_uploader("Choose a dataset file", type=["csv", "xlsx"])
